@@ -15,7 +15,7 @@ b) [False ]
 </ol>
 ```
 
-c) [False ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [True ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 
 ## Q2 - What is a screenreader and why should we care about them?

@@ -1,1 +1,81 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+<body>
+    <h1> Registration form</h1>
+    <form style='border: 1px solid;'>
+        <div>
+            <label>Username:
+                <input type="text" name="username" placeholder="Name" required>
+            </label>
+
+            <label>Password:
+                <input type="text" name="password"  placeholder="xxxx" required>
+            </label>
+        </div>
+        <div>
+            <label>Email:
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+            </label>
+        </div>
+        <div>
+            <div>Which taxi do you require?
+                <div>
+                    <label>
+                        <input type="radio" name="taxi"     value="Car" required>Car
+                    </label>
+                    <br />
+                    <label>
+                        <input type="radio" name="taxi"  value="van" required>Van
+                    </label>
+                    <br />
+                    <label>
+                        <input type="radio" name="taxi"       value="tuktuk" required>Tuk Tuk
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>Extras
+                <div>
+                    <div>
+                        <label> 
+                            <input type="checkbox" name="babyseat">
+                            Baby Seat
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox"  name="wheelchair">
+                            Wheelchair Access
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="stocktip">
+                            Stock Tip
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label>Pickup
+                <select name="pickup">
+                    <option value="" selected="selected">Select One</option>
+                    <option value="taxi">Taxi Office</option>
+                    <option value="twon">Twon Hall</option>
+                    <option value="mercedes">We'll guess</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Special
+                <textarea></textarea>
+            </label>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
